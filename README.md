@@ -71,6 +71,9 @@ cd Endfield_FineWine
 
 # 一次完成：安装依赖 → 获取源码 → 应用补丁 → 配置 → 构建（约 20～60 分钟）
 ./scripts/build-wine.sh all
+
+# 如果是macOS27系统，无法直接使用build-wine.sh，可以考虑使用build-wine-macOS27.sh
+./scripts/build-wine-macOS27.sh all
 ```
 
 也可以分步执行（某个环节需要处理时更方便）：
