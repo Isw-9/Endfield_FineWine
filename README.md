@@ -1,5 +1,7 @@
 # Endfield_FineWine——在 Apple Silicon macOS 上运行《明日方舟：终末地》
 
+## 这是自用的fork的仓库，最新项目信息请关注原作者[stoicswe](https://github.com/stoicswe/Endfield_FineWine)
+
 通过经过**自定义补丁修改的 CrossOver Wine**，在 Apple Silicon Mac 上运行**《明日方舟：终末地》**——越过游戏的 VMProtect/TenProtect 保护壳和 **ACE 反作弊**，使用 Apple 的 **D3DMetal** 完成渲染，最终进入登录界面并正常游玩。
 
 本项目发布时，CodeWeavers 将《终末地》评为 **“Installs, Will Not Run”（可以安装，但无法运行）**，社区也普遍认为不可能通过 CrossOver 运行《终末地》。本仓库提供了目前已知的首个可用方案，以及发现该方案的完整工程分析记录。
